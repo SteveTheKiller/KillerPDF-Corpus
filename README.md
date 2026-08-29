@@ -9,9 +9,10 @@ deduplicated corpus with stable SHA-256 manifests and preserved provenance. It i
 intended for PDF library authors, application developers, security researchers,
 and anyone who needs repeatable tests across a broad range of PDF structures.
 
-## Current release
+## Development status
 
-The initial corpus contains:
+The corpus is still being assembled and has not reached its first public release.
+The current local development set contains:
 
 - 3,592 unique regression PDFs
 - veraPDF, Isartor, TWG, PDF/A, PDF/UA, and ISO 32000 conformance material
@@ -20,10 +21,16 @@ The initial corpus contains:
 - Per-file SHA-256 hashes, sizes, sources, and upstream revisions
 - A qpdf structural baseline for the imported qpdf regression set
 
-The corpus archives are published as GitHub Release assets. The PDF binaries are
-not committed to Git history, so cloning this repository remains fast.
+The first release is planned after the regression collection has grown to at
+least 25,000 useful, independently licensed, unique PDFs and the separate fuzz
+collection contains enough malformed inputs to expose meaningful parser and
+recovery gaps.
 
-## Download
+The eventual corpus archives will be published as GitHub Release assets. The PDF
+binaries will not be committed to Git history, so cloning this repository will
+remain fast.
+
+## Downloading a future release
 
 Python 3.9 or newer is sufficient. No third-party packages are required.
 
@@ -31,8 +38,9 @@ Python 3.9 or newer is sufficient. No third-party packages are required.
 python scripts/download_corpus.py
 ```
 
-The command downloads the latest regression archive, verifies its published
-SHA-256 digest, and extracts it into `corpus/regression/`.
+After the first corpus release is published, the command will download the latest
+regression archive, verify its published SHA-256 digest, and extract it into
+`corpus/regression/`.
 
 To include the isolated malformed-input collection:
 
@@ -40,10 +48,10 @@ To include the isolated malformed-input collection:
 python scripts/download_corpus.py --include-fuzz
 ```
 
-To download a specific corpus release:
+To download a specific future corpus release:
 
 ```text
-python scripts/download_corpus.py --version v0.1.0
+python scripts/download_corpus.py --version <release-tag>
 ```
 
 ## Benchmarking rules
@@ -78,4 +86,3 @@ its upstream license and attribution requirements. See `SOURCES.md` and
 
 The repository's original documentation, manifests, and scripts may be reused
 under the terms stated in `LICENSES/README.md`.
-
