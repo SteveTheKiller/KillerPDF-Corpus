@@ -53,7 +53,7 @@ All five measured passes produced identical outcome counts. Detailed measured ru
 - Executable SHA-256: `44210D412DA013C403CDADA8A6D8F7CE817560D3E54D113C6BBD301EE2E344FF`
 - Operating system: Windows 11 Pro, build 26200
 - Processor: AMD Ryzen 5 3600, 6 cores and 12 logical processors
-- Memory: 31.9 GiB
+- Memory: 32 GB
 - Corpus storage: NVMe SSD
 
 The machine was kept otherwise idle during measured runs. Process peak-memory data was not captured reliably, so no memory figure is published for this baseline.
@@ -64,4 +64,3 @@ The two fuzz failures were deterministic save errors, not crashes:
 
 - `qpdf/fuzz/qpdf_extra/23642-mod.fuzz`: a cross-reference entry pointed to a different object at byte offset 0.
 - `qpdf/fuzz/qpdf_extra/23642.fuzz`: a FlateDecode stream contained invalid zlib data.
-
