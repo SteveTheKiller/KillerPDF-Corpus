@@ -1,6 +1,6 @@
-# KillerPDF Test Library
+# KillerPDF Corpus
 
-This is the test library behind KillerPDF. It is a large collection of PDFs that helps find bugs, measure progress, and make each version of the app more reliable.
+KillerPDF Corpus is the test collection behind KillerPDF. It helps find bugs, measure progress, and make each version of the app more reliable.
 
 PDFs are far more varied than they look. They can contain damaged data, unusual fonts, forms, signatures, annotations, layers, color profiles, enormous pages, old features, and combinations that ordinary sample files never cover.
 

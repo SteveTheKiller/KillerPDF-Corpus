@@ -3,7 +3,7 @@ xberg test_documents mathematics PDFs
 This import contains 10 math-heavy PDFs selected from the permissively licensed
 binary lane of the xberg-io test_documents mathematics corpus. One additional
 CC BY 4.0 arXiv paper in the pinned source manifest was an exact duplicate of a
-file already in KillerPDF Test Library and was not copied again.
+file already in KillerPDF Corpus and was not copied again.
 
 Source: https://github.com/xberg-io/test_documents
 Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5
