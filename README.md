@@ -45,6 +45,10 @@ python scripts/download_corpus.py --version v1.8.1 --include-fuzz
 
 Use both options to download every published collection. The downloader reads the release asset index, downloads every numbered part, verifies its SHA-256 digest, and extracts it under `corpus/`.
 
+## Published benchmark
+
+The [KillerPDF v1.8.1 benchmark](BENCHMARKS.md) records the first full baseline: the exact executable, test machine, five measured runs, outcome counts, public coverage, and the additional restricted collections used on the maintainer workstation.
+
 ## Comparing results
 
 To make a comparison useful to other people:
@@ -59,6 +63,7 @@ To make a comparison useful to other people:
 
 - `manifests/` lists every test file, its size, its source, and its SHA-256 hash.
 - `baselines/` records what the files look like before KillerPDF processes them.
+- `BENCHMARKS.md` publishes KillerPDF's reproducible performance and reliability baseline.
 - `scripts/` contains tools used to check and organize the collection.
 - `SOURCES.md` explains where each group of files came from.
 - `CONTRIBUTING.md` explains how to suggest more test files.

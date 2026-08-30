@@ -1,0 +1,17 @@
+Collection,Run,Seconds,Total,OK,Skipped,Failed,FilesPerSecond,SuccessfulPerSecond
+public-regression,1,134.681,16696,15013,1396,287,123.97,111.47
+public-regression,2,133.607,16696,15013,1396,287,124.96,112.37
+public-regression,3,132.910,16696,15013,1396,287,125.62,112.96
+public-regression,4,133.283,16696,15013,1396,287,125.27,112.64
+public-regression,5,133.298,16696,15013,1396,287,125.25,112.63
+standards-and-private-color,1,5.680,649,367,246,36,114.25,64.61
+standards-and-private-color,2,5.916,649,367,246,36,109.71,62.04
+standards-and-private-color,3,5.911,649,367,246,36,109.80,62.09
+standards-and-private-color,4,5.727,649,367,246,36,113.33,64.09
+standards-and-private-color,5,5.978,649,367,246,36,108.57,61.39
+private-stress-overlay,1,588.775,29599,23698,4286,1615,50.27,40.25
+private-stress-overlay,2,568.244,29599,23698,4286,1615,52.09,41.70
+private-stress-overlay,3,575.057,29599,23698,4286,1615,51.47,41.21
+private-stress-overlay,4,570.933,29599,23698,4286,1615,51.84,41.51
+private-stress-overlay,5,579.413,29599,23698,4286,1615,51.08,40.90
+
