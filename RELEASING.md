@@ -7,7 +7,7 @@ Corpus PDFs are published as GitHub release assets. They are never committed to 
 Run the deterministic packager from the repository root:
 
 ```powershell
-python scripts/package_release.py v0.2.0
+python scripts/package_release.py v1.8.1
 ```
 
 The packager:

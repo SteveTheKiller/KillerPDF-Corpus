@@ -33,14 +33,14 @@ The repository contains the manifests, baselines, licenses, and download tools. 
 Download the general regression collection:
 
 ```powershell
-python scripts/download_corpus.py --version v0.2.0
+python scripts/download_corpus.py --version v1.8.1
 ```
 
 Add the PDF standards collection or the deliberately malformed fuzz collection when needed:
 
 ```powershell
-python scripts/download_corpus.py --version v0.2.0 --include-standards
-python scripts/download_corpus.py --version v0.2.0 --include-fuzz
+python scripts/download_corpus.py --version v1.8.1 --include-standards
+python scripts/download_corpus.py --version v1.8.1 --include-fuzz
 ```
 
 Use both options to download every published collection. The downloader reads the release asset index, downloads every numbered part, verifies its SHA-256 digest, and extracts it under `corpus/`.

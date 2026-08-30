@@ -187,7 +187,7 @@ def checksum_file(path: Path, sha256: str) -> Path:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("version", help="Release tag, such as v0.2.0")
+    parser.add_argument("version", help="Release tag, such as v1.8.1")
     parser.add_argument("--repo", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--output", type=Path)
     parser.add_argument("--shard-bytes", type=int, default=DEFAULT_SHARD_BYTES)

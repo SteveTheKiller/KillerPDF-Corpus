@@ -92,7 +92,7 @@ def extract(archive: Path, destination: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--version", help="Release tag, such as v0.2.0")
+    parser.add_argument("--version", help="Release tag, such as v1.8.1")
     parser.add_argument("--include-standards", action="store_true")
     parser.add_argument("--include-fuzz", action="store_true")
     parser.add_argument("--destination", type=Path, default=Path("corpus"))
