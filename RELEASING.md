@@ -1,4 +1,4 @@
-# Releasing KillerPDF Corpus
+# Releasing The KillerPDF Corpus
 
 Corpus PDFs are published as GitHub release assets. They are never committed to the repository.
 

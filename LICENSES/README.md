@@ -32,11 +32,11 @@ license that replaces the licenses of the individual source collections.
   Adobe or explicitly third-party PDFs without documented redistribution rights
   are excluded from the accepted set.
 - The PDF Association Stressful PDF Corpus is an external benchmark overlay and
-  is not redistributed in KillerPDF Corpus release archives. Its files retain the
+  is not redistributed in The KillerPDF Corpus release archives. Its files retain the
   rights and restrictions of their original issue-tracker attachments.
 - The Altona Test Suite and Ghent PDF Output Suite are external benchmark overlays.
   Their files are obtained from the official publishers and are not redistributed
-  in KillerPDF Corpus release archives.
+  in The KillerPDF Corpus release archives.
 - PDF Differences test PDFs retain the Creative Commons Attribution 4.0
   International license in `CC-BY-4.0-PDF-Differences.txt`. Copyright and source
   attribution belong to the PDF Association.
@@ -215,7 +215,7 @@ license that replaces the licenses of the individual source collections.
 - Future sources will be documented separately in this directory and in
   `SOURCES.md`.
 
-Original KillerPDF Corpus scripts are provided under the MIT License. Original
+Original The KillerPDF Corpus scripts are provided under the MIT License. Original
 documentation and manifests are provided under Creative Commons Attribution 4.0
 International.
 

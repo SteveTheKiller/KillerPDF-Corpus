@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and verify deterministic KillerPDF Corpus release assets."""
+"""Build and verify deterministic release assets for The KillerPDF Corpus."""
 
 from __future__ import annotations
 

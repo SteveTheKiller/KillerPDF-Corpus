@@ -3,7 +3,7 @@ xberg test_documents regression corpus
 This import contains 204 arXiv papers and 98 GovDocs1 files selected from the
 vendored lane of the xberg-io test_documents regression corpus. Eight additional
 GovDocs1 files in the pinned source manifest were exact duplicates of files
-already in KillerPDF Corpus and were not copied again.
+already in The KillerPDF Corpus and were not copied again.
 
 Source: https://github.com/xberg-io/test_documents
 Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5

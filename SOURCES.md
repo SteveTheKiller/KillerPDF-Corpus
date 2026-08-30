@@ -119,7 +119,7 @@ The local overlay considered 32,573 PDFs. Two thousand nine hundred sixty-eight
 duplicates were skipped, six files were blocked by antivirus, and 29,599 unique PDFs
 were imported for local testing. The source does not provide a corpus-wide license
 for republishing the individual issue attachments. These files are therefore not
-part of KillerPDF Corpus release archives. Users obtain the overlay from the official
+part of The KillerPDF Corpus release archives. Users obtain the overlay from the official
 source. Its per-file manifest and qpdf baseline make local results reproducible.
 
 ## Altona Test Suite

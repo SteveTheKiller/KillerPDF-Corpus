@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and verify a versioned KillerPDF Corpus release."""
+"""Download and verify a versioned release of The KillerPDF Corpus."""
 
 from __future__ import annotations
 
