@@ -1,0 +1,7 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/pdf-lib/examples/create_document.pdf","0","F18FF8887F2A19F6BA93BB3A53A062F1FF28A2607395074687BFB8D5ADA4E873","773","pdf-lib"
+"regression/pdf-lib/examples/create_form.pdf","0","A5E1AF9813E57B7B6564C92E9A36AF519599CAFFC79538D17CB36C1B8FD491C0","18861","pdf-lib"
+"regression/pdf-lib/examples/draw_svg_paths.pdf","0","4738C3FA8F187903EC22053FBB12CC9DD7AFF0A4CAC128D457BD0935D5250011","811","pdf-lib"
+"regression/pdf-lib/examples/embed_font_and_measure_text.pdf","0","91161BE62F0FDAC1AAFA9D37C91828E2E9695823494DDA6F3EC5F29D30A2C8DF","178562","pdf-lib"
+"regression/pdf-lib/examples/set_document_metadata.pdf","0","4D6A5EED856AE70544A89655F19C2F69DB44BB4B98688F2F3B8EDD730AC0F604","1048","pdf-lib"
+

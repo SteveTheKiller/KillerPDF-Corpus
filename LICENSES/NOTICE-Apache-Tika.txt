@@ -1,0 +1,11 @@
+Apache Tika
+Copyright 2007-2026 The Apache Software Foundation
+
+This product includes software developed at The Apache Software Foundation.
+
+The accepted PDF fixtures are distributed under the Apache License 2.0. The
+complete license text is in Apache-2.0-qpdf.txt. Six files with external or
+unclear origins were excluded from the redistributable subset.
+
+Source: https://github.com/apache/tika
+Pinned revision: 1a8b2efd59f5322671c9b922fd23b932b7af46eb

@@ -1,0 +1,9 @@
+HummusJS test materials
+
+These PDFs are committed test inputs from the official HummusJS project.
+The matching test source files, upstream README, and Apache 2.0 license are
+preserved in the curated archive.
+
+Source: https://github.com/galkahana/HummusJS
+Pinned revision: 097196a3e3924d27fc74d29ebf801206b43e39cd
+

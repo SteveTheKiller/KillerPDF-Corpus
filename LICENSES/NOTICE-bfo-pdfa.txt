@@ -1,0 +1,10 @@
+BFO PDF/A Test Suite
+
+These PDF/A conformance files are published by BFO Support under the Creative
+Commons Attribution 3.0 Unported license. The upstream README and description
+file are preserved in the curated archive with the full license text.
+
+Source: https://github.com/bfosupport/pdfa-testsuite
+Pinned revision: c22d80260c7ec975a511f9bfcc6590b7ceb1cf18
+License: https://creativecommons.org/licenses/by/3.0/
+

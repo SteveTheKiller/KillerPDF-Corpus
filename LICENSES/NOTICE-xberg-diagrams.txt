@@ -1,0 +1,19 @@
+xberg generated diagram PDFs
+
+These 10 PDFs were rendered from project-authored diagram source files in the
+xberg-io test_documents repository. They cover Graphviz, Mermaid, LibreOffice,
+cairo, and Skia output, including multi-page and negative examples.
+
+Source: https://github.com/xberg-io/test_documents
+Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5
+License: MIT
+Pinned source archive:
+sources/xberg-regression/xberg-test-documents-9f9e3d4d4ba27b11099cf632508162ef3dab10c5.zip
+Pinned source archive SHA-256:
+2865B248EB72F71D44773FBE56460BEA791A079556207A1DE1860656AAE91B5F
+
+The source graph, renderer, embedded-font checks, SHA-256 digest, and byte count
+for each PDF are recorded by the upstream diagram manifest, attribution file,
+and object manifest. Those records are preserved in the pinned source archive
+and summarized in sources/xberg-diagrams/import-manifest.csv.
+

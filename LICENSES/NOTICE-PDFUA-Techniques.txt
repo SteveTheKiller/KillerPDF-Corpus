@@ -1,0 +1,11 @@
+Techniques for Accessible PDF
+
+Copyright and source attribution belong to the PDF Association and the named
+contributors to the upstream project.
+
+The repository and its PDF examples are provided under the Creative Commons
+Attribution 4.0 International license. The complete license text is in
+CC-BY-4.0-PDF-Differences.txt.
+
+Source: https://github.com/pdf-association/techniques-for-accessible-pdf
+Pinned revision: 9772af3c93ce6409b945c1c60a4cd7c8e74c8c40

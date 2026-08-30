@@ -1,0 +1,14 @@
+Copyright 2021 PDF Association, Inc. https://www.pdfa.org
+
+This material is based upon work supported by the Defense Advanced Research
+Projects Agency (DARPA) under Contract No. HR001119C0079. Any opinions, findings,
+conclusions, or recommendations expressed in this material are those of the
+authors and do not necessarily reflect the views of DARPA. Approved for public
+release.
+
+The PDF documentation is licensed under the Creative Commons Attribution 4.0
+International license. The complete license text is in
+CC-BY-4.0-PDF-Differences.txt.
+
+Source: https://github.com/pdf-association/safedocs
+Pinned revision: a6fd37308c91a0d2c17ebcace970367181bc0da7

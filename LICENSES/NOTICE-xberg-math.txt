@@ -1,0 +1,23 @@
+xberg test_documents mathematics PDFs
+
+This import contains 10 math-heavy PDFs selected from the permissively licensed
+binary lane of the xberg-io test_documents mathematics corpus. One additional
+CC BY 4.0 arXiv paper in the pinned source manifest was an exact duplicate of a
+file already in KillerPDF Test Library and was not copied again.
+
+Source: https://github.com/xberg-io/test_documents
+Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5
+Pinned source archive:
+sources/xberg-regression/xberg-test-documents-9f9e3d4d4ba27b11099cf632508162ef3dab10c5.zip
+Pinned source archive SHA-256:
+2865B248EB72F71D44773FBE56460BEA791A079556207A1DE1860656AAE91B5F
+
+The 11 selected source entries comprise 5 CC BY 4.0 documents, 2 LPPL 1.3c
+documents, 1 MIT document, and 3 United States public-domain documents. Exact
+file-level license and evidence fields are recorded in import-manifest.csv and
+the complete upstream provenance table is preserved in the pinned source
+archive.
+
+License texts preserved by this repository:
+LICENSES/CC-BY-4.0-PDF-Differences.txt
+LICENSES/LPPL-1.3c.txt

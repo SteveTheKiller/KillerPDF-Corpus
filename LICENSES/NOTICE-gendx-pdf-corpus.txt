@@ -1,0 +1,10 @@
+gendx hand-crafted PDF fixtures
+
+These 25 files were generated from the project-owned templates in the gendx
+pdf-corpus repository. The curated archive preserves the complete upstream
+source and the Python 3-compatible generator copy used for this import.
+
+Source: https://github.com/gendx/pdf-corpus
+Pinned revision: a811e9b82a8d14058625ac4285625d0c22a56239
+Copyright (c) 2017 Guillaume Endignoux
+License: MIT

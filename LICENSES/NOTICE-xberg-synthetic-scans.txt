@@ -1,0 +1,19 @@
+xberg generated mathematics scans
+
+These 4 PDFs were generated specifically for the xberg-io test_documents
+corpus. They contain rasterized mathematical equations with no text layer,
+including one deliberately skewed scan.
+
+Source: https://github.com/xberg-io/test_documents
+Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5
+License: MIT
+Pinned source archive:
+sources/xberg-regression/xberg-test-documents-9f9e3d4d4ba27b11099cf632508162ef3dab10c5.zip
+Pinned source archive SHA-256:
+2865B248EB72F71D44773FBE56460BEA791A079556207A1DE1860656AAE91B5F
+
+The exact file-level hashes, byte counts, license, and generation descriptions
+are recorded in sources/xberg-synthetic-scans/import-manifest.csv. The complete
+upstream provenance table and object manifest are preserved in the pinned
+source archive.
+

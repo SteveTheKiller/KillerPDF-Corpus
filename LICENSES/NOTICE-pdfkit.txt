@@ -1,0 +1,12 @@
+PDFKit generated examples
+
+These two PDFs are committed outputs from self-contained examples in the
+official PDFKit project. The curated archive preserves the matching JavaScript
+source files, upstream README, and MIT license.
+
+Examples that depend on bundled images or nonstandard font files were excluded
+because those assets do not have a clear file-level license map.
+
+Source: https://github.com/foliojs/pdfkit
+Pinned revision: 70c9ad5adc5264c82f87805e1448b2028307fd13
+

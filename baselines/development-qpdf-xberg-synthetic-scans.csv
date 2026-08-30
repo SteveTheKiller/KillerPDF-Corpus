@@ -1,0 +1,6 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/xberg-synthetic-scans/synthetic_math_interpolation_scanned.pdf","0","99DD205450E6DFBD638A2A4CE03058BA595436ACDAFE0E736E126753C5B71834","14894","xberg test_documents generated scans"
+"regression/xberg-synthetic-scans/synthetic_math_interpolation_skew_scanned.pdf","0","553023190B90AA46E6196E74A55BF71939853DB478C3109AEA3EF1E90C4E4FE7","15586","xberg test_documents generated scans"
+"regression/xberg-synthetic-scans/synthetic_math_matrix_scanned.pdf","0","8505715C5362CE8EB733CD3CC783D27CFFA218D51DABBF2A971820CC37B09090","10464","xberg test_documents generated scans"
+"regression/xberg-synthetic-scans/synthetic_math_series_scanned.pdf","0","6DCF181FA25D84409F7D99531BB4F1CD6607F003B73F81DE8DBEB34E91FB3074","11751","xberg test_documents generated scans"
+

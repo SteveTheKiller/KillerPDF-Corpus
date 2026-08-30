@@ -1,0 +1,8 @@
+pdfcpu
+Copyright 2017-2026 The pdfcpu Authors
+
+The accepted PDF samples are distributed under the Apache License 2.0. The
+complete license text is in Apache-2.0-qpdf.txt.
+
+Source: https://github.com/pdfcpu/pdfcpu
+Pinned revision: 105c0c28727afe7f85eb3179d03e9810d8774981

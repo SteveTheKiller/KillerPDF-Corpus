@@ -1,0 +1,9 @@
+OpenPDF generated pdf-toolbox examples
+
+These six PDFs are tied directly to example source files in the OpenPDF
+pdf-toolbox module. The broader test resources were excluded because they include
+issue attachments and third-party fixtures without a file-level license map.
+
+Source: https://github.com/LibrePDF/OpenPDF
+Pinned revision: b9c17f76e2e2525aa501fb423257c66d2c8c164c
+

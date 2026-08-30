@@ -1,0 +1,10 @@
+Apache FOP
+Copyright 1999-2026 The Apache Software Foundation
+
+This product includes software developed at The Apache Software Foundation.
+
+The accepted PDF fixtures are distributed under the Apache License 2.0. The
+complete license text is in Apache-2.0-qpdf.txt.
+
+Source: https://github.com/apache/xmlgraphics-fop
+Pinned revision: 2a8efc165a8769e6b57ab9dfa2ae152c9046f14d

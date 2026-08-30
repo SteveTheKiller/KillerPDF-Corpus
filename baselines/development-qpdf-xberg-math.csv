@@ -1,0 +1,12 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/xberg-math/19930091059_e5a481.pdf","3","1971643025181D1216B0B0A359D2A5A3ADF5D254D3E158E19BA880B368B86E53","6771826","xberg test_documents math corpus"
+"regression/xberg-math/19930093947_a3f534.pdf","3","555A041AF6AF5760DF49C3E36B4B598AE83A809E48594E4F3A65EDBD5FFAE316","685508","xberg test_documents math corpus"
+"regression/xberg-math/20100014819_ba4d91.pdf","3","45C31C828C0ADC581D5B5FE46CBAF5287EEDD3FA8C48678EE07DBDB5DDB43D44","710491","xberg test_documents math corpus"
+"regression/xberg-math/2306_08071_597a81.pdf","0","5CF1D1B6B1AC4785B6A1951F693861E61AC661F94108140EE9AD34239AF7C2D9","868197","xberg test_documents math corpus"
+"regression/xberg-math/2502_20028_047181.pdf","0","35EE55ACB80F61CD652FBCE785468C80B4EAE799A810BC655E0FB1B08A071FF8","333066","xberg test_documents math corpus"
+"regression/xberg-math/amsldoc_642b4e.pdf","0","374FCFB073739395A1A5A1EB9416BC9FCEC5000255F52AD4ACBE9B5E0227985E","497706","xberg test_documents math corpus"
+"regression/xberg-math/CollegeAlgebra_OP_7d1fcd.pdf","0","74A89E41F7B2DB84E18B158A9A5548A2813F1878927E816536D43229C20439D4","56807291","xberg test_documents math corpus"
+"regression/xberg-math/journal_pcbi_1012015_type_printable_1eeb41.pdf","3","8FF2319ED38A2B2487F02B5265A156781E9EDF2D8D595985A2211911069A7AE7","3162336","xberg test_documents math corpus"
+"regression/xberg-math/physica_manual_bcb494.pdf","3","1BA158F65AAC4F46BB2DD9A6431F4475E691C94042D10889A5B166E36D60C7B0","518570","xberg test_documents math corpus"
+"regression/xberg-math/testmath_e28157.pdf","0","2CFED881F790C42E4D36E1F18FDE4C949186C41AF64F8630199CEC97D39F7F34","448958","xberg test_documents math corpus"
+

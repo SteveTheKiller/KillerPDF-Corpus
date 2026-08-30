@@ -1,0 +1,11 @@
+Apache FOP PDF Images test fixtures
+
+These PDFs are committed test fixtures from the official Apache FOP PDF Images
+project. The curated archive preserves the upstream LICENSE, NOTICE, and README.
+
+Twenty-five exact duplicates already present in the locally fetched PDF
+Association Stressful overlay were excluded.
+
+Source: https://github.com/apache/xmlgraphics-fop-pdf-images
+Pinned revision: 7dc1190faad6af16e70d47029bccd57b1140c99c
+

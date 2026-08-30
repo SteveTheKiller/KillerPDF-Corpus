@@ -1,0 +1,12 @@
+PDF Association PDF COS Syntax fixtures
+
+These two syntax tests are project-created fixtures from the official PDF
+Association PDF COS Syntax repository. The curated archive preserves the
+upstream README and Apache 2.0 license.
+
+Other committed PDFs were excluded because their underlying publication or
+transformed-document content did not have a file-level provenance map.
+
+Source: https://github.com/pdf-association/pdf-cos-syntax
+Pinned revision: bdadc6122ae4192b90a1f501acf9315379b4a8d6
+

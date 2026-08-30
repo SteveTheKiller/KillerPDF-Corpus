@@ -1,0 +1,4 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"conformance/pdf-cos-syntax/CompactedPDFSyntaxTest.pdf","3","910A82106102392276983DC290F840FD32B1F4486637416C29CBE9029D523D63","4019","PDF Association PDF COS Syntax"
+"conformance/pdf-cos-syntax/SyntaxChecker-INVALID.pdf","3","0542446A43A34EACC20BDE4ED529DAEEBA863867DDE3E248225ECBF38E17F6E7","6126","PDF Association PDF COS Syntax"
+

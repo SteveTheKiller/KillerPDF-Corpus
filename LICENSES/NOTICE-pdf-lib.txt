@@ -1,0 +1,10 @@
+pdf-lib generated examples
+
+These five PDFs are generated outputs explicitly linked from the upstream README.
+The broader assets folder was excluded because it contains third-party documents
+without a file-level license map. The font example embeds the Ubuntu font, whose
+license and copyright notice are preserved in the curated archive.
+
+Source: https://github.com/Hopding/pdf-lib
+Pinned revision: 93dd36e85aa659a3bca09867d2d8fac172501fbe
+

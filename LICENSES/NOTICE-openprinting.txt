@@ -1,0 +1,9 @@
+OpenPrinting sample files
+
+Copyright 2025 by OpenPrinting.
+
+The upstream NOTICE uses the copyright symbol. This plain-text copy preserves the
+same notice in ASCII for consistent repository tooling.
+
+Source: https://github.com/OpenPrinting/sample-files
+Pinned revision: d98da078afcd824f6f59df24f18e494a2cad56fe

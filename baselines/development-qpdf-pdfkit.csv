@@ -1,0 +1,4 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/pdfkit/examples/form.pdf","0","0AC11E088BA6F68883F18BFEE65B247E2A03E0C5AD56D003C5CADB6ED8D3003A","3702","PDFKit"
+"regression/pdfkit/examples/text-link.pdf","0","BEC67B313CDCCA448CE571B238DE235EA51D0B26DE150FFAB66050340C0B8E89","3109","PDFKit"
+

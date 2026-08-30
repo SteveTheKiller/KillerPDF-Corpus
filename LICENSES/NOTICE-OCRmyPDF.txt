@@ -1,0 +1,8 @@
+OCRmyPDF test resources
+
+The accepted PDF fixtures retain the file-specific licenses and copyright notices
+recorded in the pinned source repository's REUSE.toml. The curated source archive
+preserves that attribution map and every license text needed by the accepted files.
+
+Source: https://github.com/ocrmypdf/OCRmyPDF
+Pinned revision: 05431fb9f4ccd38ace836333ef3ca8b634f45864

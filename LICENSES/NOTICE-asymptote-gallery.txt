@@ -1,0 +1,11 @@
+Asymptote official gallery
+
+The PDFs in this collection are generated examples from the official Asymptote
+project gallery. Matching Asymptote source examples and the project's LGPL
+license texts are preserved in the curated archive.
+
+Gallery: https://asymptote.sourceforge.io/gallery/
+Capture date: 2026-08-29
+Project: https://github.com/vectorgraphics/asymptote
+Pinned project revision: 2f1f70fcf812256368abc96ecfff31972b4a48f3
+

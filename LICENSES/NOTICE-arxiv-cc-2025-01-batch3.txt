@@ -1,0 +1,33 @@
+arXiv explicit Creative Commons batch 3, January 2025 metadata window
+
+This import contains 414 versioned arXiv PDFs whose saved arXivRaw OAI metadata
+explicitly declares Creative Commons Attribution 4.0 or CC0 1.0. The batch was
+selected deterministically from the final eligible records, positions 1001
+through 1414 after ordinal sorting by versioned arXiv identifier.
+
+Metadata source: https://export.arxiv.org/oai2
+Metadata format: arXivRaw
+OAI datestamp window: 2025-01-01 through 2025-01-07
+Metadata records in the complete window: 3,495
+Eligible CC BY 4.0 or CC0 records: 1,414
+Imported from the final 414 eligible records: 414
+Excluded records: 0
+Imported licenses: 402 CC BY 4.0 and 12 CC0 1.0
+
+Each file uses a permanent versioned arXiv identifier and retains the license
+chosen by its authors. File-level titles, authors, categories, licenses, version
+dates, OAI datestamps, URLs, SHA-256 digests, byte counts, and import status are
+recorded in sources/arxiv-cc-2025-01-batch3/import-manifest.csv.
+
+Pinned provenance archive:
+sources/arxiv-cc-2025-01-batch3/arxiv-cc-2025-01-01-to-07-batch3-provenance.zip
+Pinned provenance archive SHA-256:
+0DD835E2724B3702AB58267B5F34C3E908A96687AEAB2DE6D7A01019A20343F1
+
+The archive preserves all three raw OAI pages, the complete 1,414-record
+eligible list, the deterministic 414-record batch 3 selection, the OAI
+metadata-format declaration, and the resumable downloader.
+
+License texts already preserved by this repository:
+LICENSES/CC-BY-4.0-PDF-Differences.txt
+LICENSES/CC0-1.0-OpenPreserve-Format-Corpus.txt

@@ -1,0 +1,9 @@
+pdf-email-optimizer synthetic benchmark fixtures
+
+The fixtures are generated from scratch by the upstream project's
+benchmarks/make_fixtures.py script and are dedicated to the public domain under
+CC0. The generator states that no user, commercial, downloaded, or otherwise
+copyrighted content is used.
+
+Source: https://github.com/petehottelet/pdf-email-optimizer
+Pinned revision: 08ecc5ece0821d8ea39543ab69f747b8de07f07e

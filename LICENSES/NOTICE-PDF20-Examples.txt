@@ -1,0 +1,10 @@
+PDF 2.0 examples
+
+Copyright and source attribution belong to the PDF Association.
+
+The PDF Association provides these example PDF 2.0 files under the Creative
+Commons Attribution-ShareAlike 4.0 International license. The complete license
+text is in CC-BY-SA-4.0-Synthetic-PDF-Testset.txt.
+
+Source: https://github.com/pdf-association/pdf20examples
+Pinned revision: c20f2c17bfcc4baab7cfe62e70fae64caf14d5fa

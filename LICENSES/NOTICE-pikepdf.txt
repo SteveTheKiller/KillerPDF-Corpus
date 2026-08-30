@@ -1,0 +1,8 @@
+pikepdf test resources
+
+The accepted PDF fixtures retain the file-specific licenses and copyright notices
+recorded in the pinned source repository's REUSE.toml. The curated source archive
+preserves that attribution map and the complete upstream license directory.
+
+Source: https://github.com/pikepdf/pikepdf
+Pinned revision: 96ab3e100cd941c46993aca4c3e852833b7f2bc5

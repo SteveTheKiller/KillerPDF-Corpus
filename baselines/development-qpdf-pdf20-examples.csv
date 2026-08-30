@@ -1,0 +1,8 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"conformance/pdf20-examples/PDF 2.0 image with BPC.pdf","0","FC517DD0D4C72D1B11E3449ACC3E816D2719DC14E69A7E14B84DA02808103370","8989","pdf-association-pdf20examples"
+"conformance/pdf20-examples/PDF 2.0 UTF-8 string and annotation.pdf","0","F3A018213564A420DB81062A0E584FBCC5F705E353ED477DA43BAB6222F137B6","4504","pdf-association-pdf20examples"
+"conformance/pdf20-examples/PDF 2.0 via incremental save.pdf","0","9B25D59D07034634A990E79DB6EF82B9F86769D9B94D8D8635F20D06AAEC9D18","5607","pdf-association-pdf20examples"
+"conformance/pdf20-examples/PDF 2.0 with offset start.pdf","0","A5B92313770F16BA1DB649CCDC97D42F7744659C691897538734EEBDC1BC9E9A","5264","pdf-association-pdf20examples"
+"conformance/pdf20-examples/PDF 2.0 with page level output intent.pdf","0","7C13AFE3078A4C202184EDCE3169F7BC842C8FD3DB9DA7140AF6BC0B3B2FA44A","10538","pdf-association-pdf20examples"
+"conformance/pdf20-examples/pdf20-utf8-test.pdf","0","A7CA717EF062DF0A65E58487D26358C81424B76084A2000CA1C74B9E5776B7A1","13926","pdf-association-pdf20examples"
+"conformance/pdf20-examples/Simple PDF 2.0 file.pdf","0","296D2A0B2CE19B606F29265694F194A754FBC61783982B5B8D730E8637482236","5211","pdf-association-pdf20examples"

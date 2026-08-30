@@ -1,0 +1,8 @@
+py-pdf sample files
+
+Every PDF in the source repository is distributed under the Creative Commons
+Attribution-ShareAlike 4.0 International license. The complete license text is in
+CC-BY-SA-4.0-Synthetic-PDF-Testset.txt.
+
+Source: https://github.com/py-pdf/sample-files
+Pinned revision: 89039b6078fd0c9f98bf3d6fcb5583fac6b0ecaf

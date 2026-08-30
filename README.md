@@ -1,88 +1,71 @@
-# KillerPDF Corpus
+# KillerPDF Test Library
 
-KillerPDF Corpus is an open, reproducible collection of PDF documents for
-benchmarking, regression testing, parser validation, rendering, repair,
-accessibility, archival, and conformance work.
+This is the test library behind KillerPDF. It is a large collection of PDFs that helps find bugs, measure progress, and make each version of the app more reliable.
 
-The project brings independently licensed public PDF suites into one versioned,
-deduplicated corpus with stable SHA-256 manifests and preserved provenance. It is
-intended for PDF library authors, application developers, security researchers,
-and anyone who needs repeatable tests across a broad range of PDF structures.
+PDFs are far more varied than they look. They can contain damaged data, unusual fonts, forms, signatures, annotations, layers, color profiles, enormous pages, old features, and combinations that ordinary sample files never cover.
 
-## Development status
+## How this makes KillerPDF better
 
-The corpus is still being assembled and has not reached its first public release.
-The current local development set contains:
+KillerPDF is tested against every file in this collection. A file that does not open becomes a clear bug to fix. A slow file shows where performance needs work. A file that changes after being saved can reveal damaged output before it reaches a user.
 
-- 3,592 unique regression PDFs
-- veraPDF, Isartor, TWG, PDF/A, PDF/UA, and ISO 32000 conformance material
-- 685 additional qpdf regression documents
-- 78 malformed qpdf fuzz inputs distributed separately
-- Per-file SHA-256 hashes, sizes, sources, and upstream revisions
-- A qpdf structural baseline for the imported qpdf regression set
+The same tests are repeated as KillerPDF changes. That shows which problems were fixed, which files became faster, and whether a new change broke something that worked before. As this collection grows, KillerPDF gets more difficult real-world goals to hit and its reliability can be measured instead of assumed.
 
-The first release is planned after the regression collection has grown to at
-least 25,000 useful, independently licensed, unique PDFs and the separate fuzz
-collection contains enough malformed inputs to expose meaningful parser and
-recovery gaps.
+## What is in it now
 
-The eventual corpus archives will be published as GitHub Release assets. The PDF
-binaries will not be committed to Git history, so cloning this repository will
-remain fast.
+The collection is still growing but it currently has:
 
-## Downloading a future release
+- 17,248 PDFs that can legally be included and shared
+- 16,696 general reliability tests and 552 PDF standards tests
+- 29,599 additional stressful PDFs that people can fetch from the official source but that this project does not republish
+- 97 additional Altona and Ghent files for color and printing tests, also fetched from their official publishers instead of republished here
+- Tests collected from veraPDF, qpdf, PDFBox, PDF.js, PDFium, iText, and other public PDF projects
+- 80 deliberately damaged files kept separate for security and crash testing
+- A record of every file's size, source, and SHA-256 fingerprint
+- qpdf results showing which files are already damaged before KillerPDF touches them
 
-Python 3.9 or newer is sufficient. No third-party packages are required.
+Files are added only when their source and redistribution terms are clear.<br>
+Each file is tracked by its SHA-256 hash so test results can be repeated against the exact same input.
 
-```text
-python scripts/download_corpus.py
+## Download a release
+
+The repository contains the manifests, baselines, licenses, and download tools. The PDFs are distributed as verified GitHub release assets so cloning the repository stays small.
+
+Download the general regression collection:
+
+```powershell
+python scripts/download_corpus.py --version v0.2.0
 ```
 
-After the first corpus release is published, the command will download the latest
-regression archive, verify its published SHA-256 digest, and extract it into
-`corpus/regression/`.
+Add the PDF standards collection or the deliberately malformed fuzz collection when needed:
 
-To include the isolated malformed-input collection:
-
-```text
-python scripts/download_corpus.py --include-fuzz
+```powershell
+python scripts/download_corpus.py --version v0.2.0 --include-standards
+python scripts/download_corpus.py --version v0.2.0 --include-fuzz
 ```
 
-To download a specific future corpus release:
+Use both options to download every published collection. The downloader reads the release asset index, downloads every numbered part, verifies its SHA-256 digest, and extracts it under `corpus/`.
 
-```text
-python scripts/download_corpus.py --version <release-tag>
-```
+## Comparing results
 
-## Benchmarking rules
+To make a comparison useful to other people:
 
-For results that other people can reproduce:
+1. Record the KillerPDF version and the computer used for the test.
+2. Test the original files without changing them first.
+3. Run the same test at least five times and report the middle result.
+4. Report how many files succeeded, failed, or were skipped.
+5. Keep deliberately damaged security test files separate from normal PDF tests.
 
-1. Record the corpus release, application version, executable hash, operating
-   system, processor, memory, and storage device.
-2. Use the unmodified corpus files as input.
-3. Write output to a separate directory.
-4. Give each implementation one unmeasured warmup run.
-5. Alternate implementation order between measured runs.
-6. Report the median of at least five runs.
-7. Report successful files, skipped files, failures, elapsed time, and throughput.
-8. Compare structural health before and after processing instead of requiring
-   intentionally malformed inputs to begin clean.
-9. Keep fuzz results separate from ordinary regression and performance results.
+## What the folders contain
 
-## Repository contents
-
-- `manifests/` contains the complete per-file inventory for each release.
-- `baselines/` records known structural results before processing.
-- `scripts/` contains download, verification, and inventory tools.
-- `SOURCES.md` records provenance and licensing for every imported collection.
-- `CONTRIBUTING.md` explains how to propose new corpus material.
+- `manifests/` lists every test file, its size, its source, and its SHA-256 hash.
+- `baselines/` records what the files look like before KillerPDF processes them.
+- `scripts/` contains tools used to check and organize the collection.
+- `SOURCES.md` explains where each group of files came from.
+- `CONTRIBUTING.md` explains how to suggest more test files.
+- `RELEASING.md` documents the maintainer release procedure.
 
 ## Licensing
 
-There is no blanket license covering every PDF. Each imported collection retains
-its upstream license and attribution requirements. See `SOURCES.md` and
-`LICENSES/README.md` before redistributing individual files or derived bundles.
+Each group of PDFs keeps its original license. Files without clear permission to share them are not included here. See `SOURCES.md` and `LICENSES/README.md` for the details.
 
-The repository's original documentation, manifests, and scripts may be reused
-under the terms stated in `LICENSES/README.md`.
+The repository's original documentation, manifests, and scripts may be reused under the terms stated in `LICENSES/README.md`.

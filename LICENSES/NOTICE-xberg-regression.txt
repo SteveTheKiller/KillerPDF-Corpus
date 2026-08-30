@@ -1,0 +1,29 @@
+xberg test_documents regression corpus
+
+This import contains 204 arXiv papers and 98 GovDocs1 files selected from the
+vendored lane of the xberg-io test_documents regression corpus. Eight additional
+GovDocs1 files in the pinned source manifest were exact duplicates of files
+already in KillerPDF Test Library and were not copied again.
+
+Source: https://github.com/xberg-io/test_documents
+Pinned revision: 9f9e3d4d4ba27b11099cf632508162ef3dab10c5
+Pinned source archive SHA-256:
+2865B248EB72F71D44773FBE56460BEA791A079556207A1DE1860656AAE91B5F
+
+The imported arXiv files retain their individual Creative Commons licenses:
+192 use Creative Commons Attribution 4.0 International, 11 use CC0 1.0
+Universal, and 1 uses Creative Commons Attribution 3.0 Unported. Exact
+file-level license and evidence fields are recorded in import-manifest.csv and
+the complete upstream provenance table is preserved in the pinned source
+archive.
+
+The imported GovDocs1 files are works of the United States government and are
+in the public domain in the United States under 17 U.S.C. 105. Their exact
+file-level source and evidence records are preserved in import-manifest.csv and
+the pinned source archive.
+
+Creative Commons license texts already preserved by this repository:
+LICENSES/CC-BY-4.0-PDF-Differences.txt
+LICENSES/CC-BY-3.0-bfo-pdfa.txt
+LICENSES/CC0-1.0-OpenPreserve-Format-Corpus.txt
+

@@ -75,6 +75,14 @@ def verify(archive: Path, digest_file: Path) -> None:
     print(f"Verified {archive.name}: {actual}")
 
 
+def verify_index_digest(path: Path, expected: str) -> None:
+    actual = sha256(path)
+    if actual.lower() != expected.lower():
+        raise RuntimeError(
+            f"SHA-256 mismatch for {path.name}: expected {expected}, got {actual}"
+        )
+
+
 def extract(archive: Path, destination: Path) -> None:
     destination.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(archive) as bundle:
@@ -84,7 +92,8 @@ def extract(archive: Path, destination: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--version", help="Release tag, such as v0.1.0")
+    parser.add_argument("--version", help="Release tag, such as v0.2.0")
+    parser.add_argument("--include-standards", action="store_true")
     parser.add_argument("--include-fuzz", action="store_true")
     parser.add_argument("--destination", type=Path, default=Path("corpus"))
     args = parser.parse_args()
@@ -95,16 +104,49 @@ def main() -> int:
         assets = asset_map(data)
         downloads = args.destination / "downloads"
 
-        names = [f"killerpdf-corpus-regression-{version}.zip"]
-        if args.include_fuzz:
-            names.append(f"killerpdf-corpus-fuzz-{version}.zip")
-
-        for name in names:
-            archive = fetch_asset(assets, name, downloads)
-            digest = fetch_asset(assets, f"{name}.sha256", downloads)
-            verify(archive, digest)
-            category = "fuzz" if "-fuzz-" in name else "regression"
-            extract(archive, args.destination / category)
+        index_name = f"killerpdf-corpus-{version}-assets.json"
+        if index_name in assets:
+            index_path = fetch_asset(assets, index_name, downloads)
+            index = json.loads(index_path.read_text(encoding="utf-8"))
+            if index.get("version") != version:
+                raise RuntimeError(
+                    f"Release index version is {index.get('version')}, expected {version}"
+                )
+            selected = ["regression"]
+            if args.include_standards:
+                selected.append("standards")
+            if args.include_fuzz:
+                selected.append("fuzz")
+            destinations = {
+                "regression": args.destination / "regression",
+                "standards": args.destination / "conformance",
+                "fuzz": args.destination / "fuzz",
+            }
+            collections = index.get("collections", {})
+            for category in selected:
+                try:
+                    collection = collections[category]
+                except KeyError as error:
+                    raise RuntimeError(
+                        f"Release collection not found: {category}"
+                    ) from error
+                for asset in collection.get("assets", []):
+                    name = asset["name"]
+                    archive = fetch_asset(assets, name, downloads)
+                    digest_file = fetch_asset(assets, f"{name}.sha256", downloads)
+                    verify(archive, digest_file)
+                    verify_index_digest(archive, asset["sha256"])
+                    extract(archive, destinations[category])
+        else:
+            names = [f"killerpdf-corpus-regression-{version}.zip"]
+            if args.include_fuzz:
+                names.append(f"killerpdf-corpus-fuzz-{version}.zip")
+            for name in names:
+                archive = fetch_asset(assets, name, downloads)
+                digest_file = fetch_asset(assets, f"{name}.sha256", downloads)
+                verify(archive, digest_file)
+                category = "fuzz" if "-fuzz-" in name else "regression"
+                extract(archive, args.destination / category)
     except (OSError, RuntimeError, urllib.error.URLError, zipfile.BadZipFile) as error:
         print(f"error: {error}", file=sys.stderr)
         return 1
@@ -114,4 +156,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

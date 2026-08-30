@@ -1,0 +1,7 @@
+img2pdf reference outputs
+
+The committed PDF outputs are distributed under the GNU Lesser General Public
+License version 3. The complete upstream license text is in LGPL-3.0-img2pdf.txt.
+
+Source: https://github.com/josch/img2pdf
+Pinned revision: 0fafa2c312be50c68a07e2331a89bf4adbd274ed

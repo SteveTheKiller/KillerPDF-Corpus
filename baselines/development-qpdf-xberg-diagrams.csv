@@ -1,0 +1,12 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/xberg-diagrams/cairo_graphviz_flow.pdf","0","1E59250A50F597577BE0D43F8597A1D9F2DA65EB6464915B74300A7A57409A4A","17697","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/cairo_graphviz_large.pdf","0","737C5A2D53AC5C62373B79C5DF730363802EE296A5380373CB23BAD56E7FA910","20252","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/cairo_graphviz_ortho.pdf","0","3C598A42451D5A1BB9B93689E45B815BB0CC541657F5EDF2559C2754505FFA43","17165","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/cairo_negative_pie_chart.pdf","0","5636A2A02C424BF709CFE6408CC5A7836C4AEB6D1EAE8F5BCD5053990E7E894B","18531","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/cairo_two_diagrams.pdf","0","84D1452C0B9A165EC122E4A2F233FC9B2B10A4E8DDCA2726DF8AC5127A9AF754","18853","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/libreoffice_connectors.pdf","0","8E1AD92BA5FFB7140327FBC7DF15098140C80F5C46CB04A1C818E5A277BD35BF","9495","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/skia_mermaid_flow.pdf","0","5B531153A3D550DB1538680B722AD2D0CCBCDB88142010B69D5DC191EBD05901","31356","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/skia_mixed_page.pdf","0","38D9DCE35C67B7D6113E4036B8F68256BC2C1ABD63F3AC2423A81D0E35F9ACA0","37759","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/skia_multipage_report.pdf","0","803405C1A127FDA23CE5571D938EA1AD72E3A02AD396F70A6EE4601B96E2DA17","63963","xberg test_documents diagram fixtures"
+"regression/xberg-diagrams/skia_negative_ruled_table.pdf","0","587E8F123A02607980F96285F877571A9B7254EBAB16CE50E5D282917A517B32","20326","xberg test_documents diagram fixtures"
+

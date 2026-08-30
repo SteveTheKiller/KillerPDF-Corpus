@@ -1,0 +1,10 @@
+PDF Tools Kit generated samples
+
+These 18 files are machine-generated samples containing no real data. The
+upstream project dedicates the files and generator to the public domain under
+CC0 1.0 Universal. The pinned archive preserves the complete upstream license,
+generator, verifier, README, and generated outputs.
+
+Source: https://github.com/tinytoolkit-org/pdf-sample-files
+Pinned revision: 4fd733c47ead5446b06372ab910cb78d1c7da55e
+License: CC0 1.0 Universal

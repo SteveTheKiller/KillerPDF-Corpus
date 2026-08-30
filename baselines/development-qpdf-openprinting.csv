@@ -1,0 +1,8 @@
+"File","QpdfExitCode","SHA256","Bytes","Source"
+"regression/openprinting/pdf/4x6-portrait-vector-color.pdf","0","DA71B1A781BC29CA14F891D618FB3677F46025DCD19258B46370C168B6088250","38075","OpenPrinting sample-files"
+"regression/openprinting/pdf/a3-portrait-vector-color.pdf","0","C0872C16935D25F0BCEEFFD21C15EDC5E1E9E60A4D64FEC95E0E56664CFBBDCF","43853","OpenPrinting sample-files"
+"regression/openprinting/pdf/a4-portrait-vector-color.pdf","0","FD426FBE9A782361615F524A5B975B55291CB34C2990664F496DD0B162A7D7E1","42041","OpenPrinting sample-files"
+"regression/openprinting/pdf/a6-portrait-vector-color.pdf","0","BEC44BAFA21CA49D2B691B2BE5CDAF7FB4B3849621FE0C1A30D5652A5C35BD3C","40030","OpenPrinting sample-files"
+"regression/openprinting/pdf/legal-portrait-vector-color.pdf","0","B6DF0DD3632ACD4B0F907ACF2E117F5D9C657A4BEE5AF7AFFB512274223F306A","41543","OpenPrinting sample-files"
+"regression/openprinting/pdf/letter-portrait-vector-color.pdf","0","5196876F5E8E6C69D69582D0AAF2448F1B6B4D4968C37105F7E0E799CB0DE7F2","40000","OpenPrinting sample-files"
+"regression/openprinting/pdf/tabloid-portrait-vector-color.pdf","0","8D2E906601609768EA5BD6A7F5A9C3A1B8D24D042933176458A5009F0CCB1267","41004","OpenPrinting sample-files"
