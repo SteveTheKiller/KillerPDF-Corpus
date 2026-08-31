@@ -45,7 +45,7 @@ The combined conformance row above contains two groups:
 5. Report the median elapsed time, plus the minimum and maximum measured times.
 6. Run malformed fuzz inputs separately with crash and timeout detection.
 
-All five measured passes produced identical outcome counts. Detailed measured run times are in [`baselines/killerpdf-v1.8.1-runs.csv`](baselines/killerpdf-v1.8.1-runs.csv), and the comparison-ready collection summary is in [`baselines/killerpdf-v1.8.1-summary.csv`](baselines/killerpdf-v1.8.1-summary.csv).
+All five measured passes produced identical outcome counts. Detailed measured run times are in [`baselines/killerpdf-v1.8.1-runs.csv`](../baselines/killerpdf-v1.8.1-runs.csv), and the comparison-ready collection summary is in [`baselines/killerpdf-v1.8.1-summary.csv`](../baselines/killerpdf-v1.8.1-summary.csv).
 
 ## Test environment
 

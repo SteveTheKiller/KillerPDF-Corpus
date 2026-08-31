@@ -100,9 +100,10 @@ Developers can bypass the menus by supplying the tool, collections, and run coun
 
 Run `Get-Help .\benchmark_corpus.ps1 -Detailed` for every available option.
 
-## Published benchmark
+## Published benchmarks
 
-The [KillerPDF v1.8.1 benchmark](BENCHMARKS.md) records the first full baseline: the exact executable, test machine, five measured runs, outcome counts, public coverage, and the additional restricted collections used on the maintainer workstation.
+- The [KillerPDF v1.8.2 release record](benchmarks/killerpdf-v1.8.2.md) preserves the latest full result and its complete run data.
+- The [KillerPDF v1.8.1 benchmark](benchmarks/killerpdf-v1.8.1.md) records the first full baseline.
 
 ## Comparing results
 
@@ -118,7 +119,7 @@ To make a comparison useful to other people:
 
 - [`manifests/`](manifests/) lists every test file, its size, its source, and its SHA-256 hash.
 - [`baselines/`](baselines/) records what the files look like before KillerPDF processes them.
-- [`BENCHMARKS.md`](BENCHMARKS.md) publishes KillerPDF's reproducible performance and reliability baseline.
+- [`benchmarks/`](benchmarks/) contains the versioned KillerPDF result records and their saved run data.
 - [`scripts/`](scripts/) contains tools used to check and organize the collection.
 - [`adapters/`](adapters/) explains how to test another command-line PDF tool.
 - [`SOURCES.md`](SOURCES.md) explains where each group of files came from.
