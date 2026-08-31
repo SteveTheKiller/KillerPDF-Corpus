@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "name": "Example PDF Tool",
+  "executable": "C:\\Path\\To\\PdfTool.exe",
+  "versionArguments": ["--version"],
+  "runArguments": ["--input", "{input}", "--output", "{output}"],
+  "savedExitCodes": [0],
+  "warningExitCodes": [],
+  "outputRequired": true,
+  "timeoutSeconds": 30
+}
