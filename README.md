@@ -102,8 +102,11 @@ Run `Get-Help .\benchmark_corpus.ps1 -Detailed` for every available option.
 
 ## Published benchmarks
 
-- The [KillerPDF v1.8.2 release record](benchmarks/killerpdf-v1.8.2.md) preserves the latest full result and its complete run data.
-- The [KillerPDF v1.8.1 benchmark](benchmarks/killerpdf-v1.8.1.md) records the first full baseline.
+[Browse the complete benchmark history](benchmarks/README.md).
+
+- [KillerPDF v1.8.80](benchmarks/killerpdf-v1.8.80.md): five measured passes alternating with 1.8.71, including report and CSVs.
+- [KillerPDF v1.8.71](benchmarks/killerpdf-v1.8.71.md): the same session's baseline, with its own report and CSVs.
+- [Earlier versions](benchmarks/README.md): 1.8.70, 1.8.6, 1.8.4, 1.8.3, 1.8.2, and 1.8.1.
 
 ## Comparing results
 
